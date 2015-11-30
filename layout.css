@@ -1,0 +1,11 @@
+*{margin:0;padding:0;}
+.wrapper{width:960px;margin:0 auto}  /* 讲最外层的盒子居中显示，定宽960px */
+/*将nav,article,aside三栏浮动,定宽,添加box-sizing属性,以及预防过大的内容元素破坏布局*/
+nav,article,aside{float:left;box-sizing:border-box;padding:10px;word-wrap:break-word;}
+nav img,article img,aside img{max-width:100%;}
+nav{width:120px;}
+article{width:620px;}
+aside{width:220px;}
+
+/*footer清除浮动,将footer置于最高栏的下面*/
+footer{clear:both;}
